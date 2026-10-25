@@ -1,0 +1,6 @@
+pytest
+pytest-cov
+pre-commit
+radon
+pylint
+pip-audit
