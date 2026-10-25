@@ -3,6 +3,9 @@
 Catálogo, cobro, envío y reportes de ventas del Food Store (Python), con
 controles de calidad automáticos antes de cada commit.
 
+Los reportes por canal (`reporte_mostrador.py` y `reporte_online.py`) delegan
+en `reporte_ventas.py`, que concentra la regla de monto neto por medio de pago.
+
 ## Requisitos
 
 Python 3.10 o superior y Git.
@@ -57,6 +60,7 @@ foodstore-calidad/
         envio.py
         reporte_mostrador.py
         reporte_online.py
+        reporte_ventas.py
         servicio_cobro.py
     tests/
         test_catalogo.py
